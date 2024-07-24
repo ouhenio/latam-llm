@@ -4,17 +4,16 @@ export default defineAppConfig({
     title: 'LLM Latinoamericano',
     description: 'Un modelo hecho en casa',
     image: {
-      src: '/perceptrin.webp',
+      src: '/mascota_bandera.png',
       alt: 'An image showcasing my project.',
-      width: 400,
-      height: 400
+      width: 500,
+      height: 500
     },
     header: {
       position: 'right', // possible value are : | 'left' | 'center' | 'right'
       logo: {
-        path: '/perceptrin.webp', // path of the logo
-        pathDark: '/perceptrin.webp', // path of the logo in dark mode, leave this empty if you want to use the same logo
-        alt: 'GPT-LAS' // alt of the logo
+        path: '/mascota_bandera.png', // path of the logo
+        pathDark: '/mascota_bandera.png', // path of the logo in dark mode, leave this empty if you want to use the same logo
       }
     },
     footer: {
