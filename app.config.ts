@@ -14,8 +14,6 @@ export default defineAppConfig({
       logo: {
         path: '/mascota_bandera.png', // path of the logo
         pathDark: '/mascota_bandera.png', // path of the logo in dark mode, leave this empty if you want to use the same logo
-        alt: 'GPT-LAS', // alt of the logo
-        size: '300px'
       }
     },
     footer: {
