@@ -10,7 +10,7 @@ defineProps({
 </script>
 
 <template>
-  <section class="gallery">
+  <section class="gallery2">
     <div
       class="layout"
     >
@@ -29,18 +29,18 @@ defineProps({
 
 <style scoped lang="ts">
 css({
-  '.gallery': {
+  '.gallery2': {
     '.layout': {
       display: 'grid',
       gap: '{space.8}',
       my: '{space.16}',
       '--cols': 1,
-      gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))',
+      gridTemplateColumns: 'repeat(var(--cols), minmax(0, 1fr))',
       '@md': {
         '--cols': (props) => props.images.length < 2 ? props.images.length : 2
       },
       img: {
-        objectFit: 'contain',
+        objectFit: 'cover',
         width: '100%',
         aspectRatio: '16 / 9',
         borderRadius: '{radii.md}'
