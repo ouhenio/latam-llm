@@ -49,7 +49,7 @@ defineProps({
 }
 
 .hero-image-wrapper {
-  position: relative; /* Contenedor relativo para la imagen y el texto */
+  position: relative;
 }
 
 .hero-image {
@@ -76,10 +76,10 @@ defineProps({
 
 .title {
   font-family: 'Roboto', sans-serif;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   line-height: 1.2;
   font-weight: var(--fontWeight-bold);
-  margin-bottom: 1rem; /* Espacio entre título y descripción */
+  margin-bottom: 1rem;
 }
 
 .description {
