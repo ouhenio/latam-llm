@@ -57,6 +57,7 @@ defineProps({
   height: auto;
   object-fit: cover;
   border-radius: var(--radii-md);
+  
 }
 
 .content {
@@ -70,7 +71,7 @@ defineProps({
   color: #ffffff; /* Color del texto para contraste con la imagen */
   padding: 20px; /* Espaciado alrededor del contenido */
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Sombra para mejorar la legibilidad */
-  background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+  background: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
   border-radius: var(--radii-md); /* Bordes redondeados */
 }
 
