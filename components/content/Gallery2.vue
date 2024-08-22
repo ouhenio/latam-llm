@@ -22,9 +22,7 @@ defineProps({
         :height="9"
       />
     </div>
-  </section>
-
-  
+  </section>  
 </template>
 
 <style scoped lang="ts">
