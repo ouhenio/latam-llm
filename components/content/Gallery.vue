@@ -23,8 +23,6 @@ defineProps({
       />
     </div>
   </section>
-
-  
 </template>
 
 <style scoped lang="ts">
