@@ -60,6 +60,11 @@ const countries = [
     color: "#FF0000"
   },
 
+  {
+    name: "EE.UU",
+    coordinates: [-98.5795, 39.8283],
+    color: "#FF0000"
+  },
 
 
 
