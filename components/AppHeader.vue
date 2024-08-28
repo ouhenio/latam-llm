@@ -41,7 +41,7 @@ const show = ref(false)
 <style scoped lang="ts">
 css({
   header: {
-    '--header-padding': '{space.16}',
+    '--header-padding': '{space.8}',
     '--logo-height': '50',
     position: 'relative',
     display: 'grid',
