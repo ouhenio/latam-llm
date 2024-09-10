@@ -4,7 +4,7 @@ export default defineAppConfig({
     title: 'LLM Latinoamericano',
     description: 'Un modelo hecho en casa',
     image: {
-      src: '/mascota_bandera.png',
+      src: '/bitmap.png',
       alt: 'An image showcasing my project.',
       width: 500,
       height: 500
@@ -12,8 +12,8 @@ export default defineAppConfig({
     header: {
       position: 'right', // possible value are : | 'left' | 'center' | 'right'
       logo: {
-        path: '/mascota_bandera.png', // path of the logo
-        pathDark: '/mascota_bandera.png', // path of the logo in dark mode, leave this empty if you want to use the same logo
+        path: '/bitmap.png', // path of the logo
+        pathDark: '/bitmap.png', // path of the logo in dark mode, leave this empty if you want to use the same logo
       }
     },
     footer: {
